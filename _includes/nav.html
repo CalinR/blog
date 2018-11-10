@@ -1,0 +1,9 @@
+<nav>
+  <ul>
+    {% for link in site.nav-links %}
+      <li>
+        <a href="{{ link.last }}">{{ link.first }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
